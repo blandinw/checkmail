@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9484187150E4E1D000D3FC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9484186150E4E1D000D3FC4 /* Cocoa.framework */; };
+		B9484191150E4E1D000D3FC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B948418F150E4E1D000D3FC4 /* InfoPlist.strings */; };
+		B9484193150E4E1D000D3FC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9484192150E4E1D000D3FC4 /* main.m */; };
+		B9484197150E4E1D000D3FC4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B9484195150E4E1D000D3FC4 /* Credits.rtf */; };
+		B948419A150E4E1D000D3FC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9484199150E4E1D000D3FC4 /* AppDelegate.m */; };
+		B948419D150E4E1D000D3FC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B948419B150E4E1D000D3FC4 /* MainMenu.xib */; };
+		B94841A5150E4E1E000D3FC4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94841A4150E4E1D000D3FC4 /* SenTestingKit.framework */; };
+		B94841A6150E4E1E000D3FC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9484186150E4E1D000D3FC4 /* Cocoa.framework */; };
+		B94841AE150E4E1E000D3FC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B94841AC150E4E1E000D3FC4 /* InfoPlist.strings */; };
+		B94841B1150E4E1E000D3FC4 /* CheckmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B94841B0150E4E1E000D3FC4 /* CheckmailTests.m */; };
+		B948422E150EAD8E000D3FC4 /* Checker.m in Sources */ = {isa = PBXBuildFile; fileRef = B948422D150EAD8E000D3FC4 /* Checker.m */; };
+		B958ACB9150FC2850087D28B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B958ACB8150FC2850087D28B /* Security.framework */; };
+		B958ACC7150FEF880087D28B /* PrefWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B958ACC6150FEF880087D28B /* PrefWindowController.m */; };
+		B958ACCA150FF0070087D28B /* PrefWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B958ACC9150FF0070087D28B /* PrefWindow.xib */; };
+		B958ACE415101C390087D28B /* CheckmailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B958ACE315101C380087D28B /* CheckmailController.m */; };
+		B958ACE715102F640087D28B /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B958ACE615102F640087D28B /* Keychain.m */; };
+		B958ACEB151039230087D28B /* MailCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B989077D150F8589003A28E9 /* MailCore.framework */; };
+		B989077E150F8589003A28E9 /* MailCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B989077D150F8589003A28E9 /* MailCore.framework */; };
+		B9C5503D150FAA5900093005 /* Configurator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C5503C150FAA5900093005 /* Configurator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B94841A7150E4E1E000D3FC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9484179150E4E1D000D3FC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9484181150E4E1D000D3FC4;
+			remoteInfo = Checkmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B958ACEA1510391C0087D28B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B958ACEB151039230087D28B /* MailCore.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B9484182150E4E1D000D3FC4 /* Checkmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9484186150E4E1D000D3FC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B9484189150E4E1D000D3FC4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B948418A150E4E1D000D3FC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B948418B150E4E1D000D3FC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B948418E150E4E1D000D3FC4 /* Checkmail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Checkmail-Info.plist"; sourceTree = "<group>"; };
+		B9484190150E4E1D000D3FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9484192150E4E1D000D3FC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9484194150E4E1D000D3FC4 /* Checkmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Checkmail-Prefix.pch"; sourceTree = "<group>"; };
+		B9484196150E4E1D000D3FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B9484198150E4E1D000D3FC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9484199150E4E1D000D3FC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B948419C150E4E1D000D3FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B94841A3150E4E1D000D3FC4 /* CheckmailTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckmailTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94841A4150E4E1D000D3FC4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B94841AB150E4E1E000D3FC4 /* CheckmailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckmailTests-Info.plist"; sourceTree = "<group>"; };
+		B94841AD150E4E1E000D3FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B94841AF150E4E1E000D3FC4 /* CheckmailTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckmailTests.h; sourceTree = "<group>"; };
+		B94841B0150E4E1E000D3FC4 /* CheckmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckmailTests.m; sourceTree = "<group>"; };
+		B948422C150EAD8E000D3FC4 /* Checker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checker.h; sourceTree = "<group>"; };
+		B948422D150EAD8E000D3FC4 /* Checker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checker.m; sourceTree = "<group>"; };
+		B958ACB8150FC2850087D28B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B958ACC5150FEF880087D28B /* PrefWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefWindowController.h; sourceTree = "<group>"; };
+		B958ACC6150FEF880087D28B /* PrefWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefWindowController.m; sourceTree = "<group>"; };
+		B958ACC9150FF0070087D28B /* PrefWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrefWindow.xib; sourceTree = "<group>"; };
+		B958ACE215101C380087D28B /* CheckmailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckmailController.h; sourceTree = "<group>"; };
+		B958ACE315101C380087D28B /* CheckmailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckmailController.m; sourceTree = "<group>"; };
+		B958ACE515102F640087D28B /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
+		B958ACE615102F640087D28B /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		B958ACE9151037700087D28B /* Checkmail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Checkmail.entitlements; path = Checkmail/Checkmail.entitlements; sourceTree = SOURCE_ROOT; };
+		B989077D150F8589003A28E9 /* MailCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MailCore.framework; path = Library/Frameworks/MailCore.framework; sourceTree = DEVELOPER_DIR; };
+		B9C5503B150FAA5900093005 /* Configurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configurator.h; sourceTree = "<group>"; };
+		B9C5503C150FAA5900093005 /* Configurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configurator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B948417F150E4E1D000D3FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B958ACB9150FC2850087D28B /* Security.framework in Frameworks */,
+				B989077E150F8589003A28E9 /* MailCore.framework in Frameworks */,
+				B9484187150E4E1D000D3FC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B948419F150E4E1D000D3FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94841A5150E4E1E000D3FC4 /* SenTestingKit.framework in Frameworks */,
+				B94841A6150E4E1E000D3FC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9484177150E4E1D000D3FC4 = {
+			isa = PBXGroup;
+			children = (
+				B948418C150E4E1D000D3FC4 /* Checkmail */,
+				B94841A9150E4E1E000D3FC4 /* CheckmailTests */,
+				B9484185150E4E1D000D3FC4 /* Frameworks */,
+				B9484183150E4E1D000D3FC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9484183150E4E1D000D3FC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9484182150E4E1D000D3FC4 /* Checkmail.app */,
+				B94841A3150E4E1D000D3FC4 /* CheckmailTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9484185150E4E1D000D3FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B989077C150F845B003A28E9 /* Linked Frameworks */,
+				B9484186150E4E1D000D3FC4 /* Cocoa.framework */,
+				B94841A4150E4E1D000D3FC4 /* SenTestingKit.framework */,
+				B9484188150E4E1D000D3FC4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9484188150E4E1D000D3FC4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9484189150E4E1D000D3FC4 /* AppKit.framework */,
+				B948418A150E4E1D000D3FC4 /* CoreData.framework */,
+				B948418B150E4E1D000D3FC4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B948418C150E4E1D000D3FC4 /* Checkmail */ = {
+			isa = PBXGroup;
+			children = (
+				B958ACE9151037700087D28B /* Checkmail.entitlements */,
+				B958ACC8150FEFE30087D28B /* UI */,
+				B958ACC4150FEF670087D28B /* Controllers */,
+				B9484198150E4E1D000D3FC4 /* AppDelegate.h */,
+				B9484199150E4E1D000D3FC4 /* AppDelegate.m */,
+				B948418D150E4E1D000D3FC4 /* Supporting Files */,
+				B958ACE81510369F0087D28B /* Models */,
+			);
+			path = Checkmail;
+			sourceTree = "<group>";
+		};
+		B948418D150E4E1D000D3FC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B948418E150E4E1D000D3FC4 /* Checkmail-Info.plist */,
+				B948418F150E4E1D000D3FC4 /* InfoPlist.strings */,
+				B9484192150E4E1D000D3FC4 /* main.m */,
+				B9484194150E4E1D000D3FC4 /* Checkmail-Prefix.pch */,
+				B9484195150E4E1D000D3FC4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B94841A9150E4E1E000D3FC4 /* CheckmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				B94841AF150E4E1E000D3FC4 /* CheckmailTests.h */,
+				B94841B0150E4E1E000D3FC4 /* CheckmailTests.m */,
+				B94841AA150E4E1E000D3FC4 /* Supporting Files */,
+			);
+			path = CheckmailTests;
+			sourceTree = "<group>";
+		};
+		B94841AA150E4E1E000D3FC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B94841AB150E4E1E000D3FC4 /* CheckmailTests-Info.plist */,
+				B94841AC150E4E1E000D3FC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B958ACC4150FEF670087D28B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B958ACE215101C380087D28B /* CheckmailController.h */,
+				B958ACE315101C380087D28B /* CheckmailController.m */,
+				B958ACC5150FEF880087D28B /* PrefWindowController.h */,
+				B958ACC6150FEF880087D28B /* PrefWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B958ACC8150FEFE30087D28B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B948419B150E4E1D000D3FC4 /* MainMenu.xib */,
+				B958ACC9150FF0070087D28B /* PrefWindow.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B958ACE81510369F0087D28B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B948422C150EAD8E000D3FC4 /* Checker.h */,
+				B948422D150EAD8E000D3FC4 /* Checker.m */,
+				B9C5503B150FAA5900093005 /* Configurator.h */,
+				B9C5503C150FAA5900093005 /* Configurator.m */,
+				B958ACE515102F640087D28B /* Keychain.h */,
+				B958ACE615102F640087D28B /* Keychain.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B989077C150F845B003A28E9 /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B958ACB8150FC2850087D28B /* Security.framework */,
+				B989077D150F8589003A28E9 /* MailCore.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9484181150E4E1D000D3FC4 /* Checkmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94841B4150E4E1E000D3FC4 /* Build configuration list for PBXNativeTarget "Checkmail" */;
+			buildPhases = (
+				B948417E150E4E1D000D3FC4 /* Sources */,
+				B948417F150E4E1D000D3FC4 /* Frameworks */,
+				B9484180150E4E1D000D3FC4 /* Resources */,
+				B958ACEA1510391C0087D28B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checkmail;
+			productName = Checkmail;
+			productReference = B9484182150E4E1D000D3FC4 /* Checkmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B94841A2150E4E1D000D3FC4 /* CheckmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94841B7150E4E1E000D3FC4 /* Build configuration list for PBXNativeTarget "CheckmailTests" */;
+			buildPhases = (
+				B948419E150E4E1D000D3FC4 /* Sources */,
+				B948419F150E4E1D000D3FC4 /* Frameworks */,
+				B94841A0150E4E1D000D3FC4 /* Resources */,
+				B94841A1150E4E1D000D3FC4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94841A8150E4E1E000D3FC4 /* PBXTargetDependency */,
+			);
+			name = CheckmailTests;
+			productName = CheckmailTests;
+			productReference = B94841A3150E4E1D000D3FC4 /* CheckmailTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9484179150E4E1D000D3FC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = DomoHood;
+			};
+			buildConfigurationList = B948417C150E4E1D000D3FC4 /* Build configuration list for PBXProject "Checkmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9484177150E4E1D000D3FC4;
+			productRefGroup = B9484183150E4E1D000D3FC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9484181150E4E1D000D3FC4 /* Checkmail */,
+				B94841A2150E4E1D000D3FC4 /* CheckmailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9484180150E4E1D000D3FC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9484191150E4E1D000D3FC4 /* InfoPlist.strings in Resources */,
+				B9484197150E4E1D000D3FC4 /* Credits.rtf in Resources */,
+				B948419D150E4E1D000D3FC4 /* MainMenu.xib in Resources */,
+				B958ACCA150FF0070087D28B /* PrefWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94841A0150E4E1D000D3FC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94841AE150E4E1E000D3FC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B94841A1150E4E1D000D3FC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B948417E150E4E1D000D3FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9484193150E4E1D000D3FC4 /* main.m in Sources */,
+				B948419A150E4E1D000D3FC4 /* AppDelegate.m in Sources */,
+				B948422E150EAD8E000D3FC4 /* Checker.m in Sources */,
+				B9C5503D150FAA5900093005 /* Configurator.m in Sources */,
+				B958ACC7150FEF880087D28B /* PrefWindowController.m in Sources */,
+				B958ACE415101C390087D28B /* CheckmailController.m in Sources */,
+				B958ACE715102F640087D28B /* Keychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B948419E150E4E1D000D3FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94841B1150E4E1E000D3FC4 /* CheckmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B94841A8150E4E1E000D3FC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9484181150E4E1D000D3FC4 /* Checkmail */;
+			targetProxy = B94841A7150E4E1E000D3FC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B948418F150E4E1D000D3FC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9484190150E4E1D000D3FC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9484195150E4E1D000D3FC4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9484196150E4E1D000D3FC4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B948419B150E4E1D000D3FC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B948419C150E4E1D000D3FC4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B94841AC150E4E1E000D3FC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94841AD150E4E1E000D3FC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B94841B2150E4E1E000D3FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		B94841B3150E4E1E000D3FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		B94841B5150E4E1E000D3FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Developer/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checkmail/Checkmail-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/belette/src/MailCore/libetpan/build-mac/include";
+				INFOPLIST_FILE = "Checkmail/Checkmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B94841B6150E4E1E000D3FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Developer/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checkmail/Checkmail-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/belette/src/MailCore/libetpan/build-mac/include";
+				INFOPLIST_FILE = "Checkmail/Checkmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B94841B8150E4E1E000D3FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Checkmail.app/Contents/MacOS/Checkmail";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checkmail/Checkmail-Prefix.pch";
+				INFOPLIST_FILE = "CheckmailTests/CheckmailTests-Info.plist";
+				PRODUCT_NAME = CheckmailTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B94841B9150E4E1E000D3FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Checkmail.app/Contents/MacOS/Checkmail";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Checkmail/Checkmail-Prefix.pch";
+				INFOPLIST_FILE = "CheckmailTests/CheckmailTests-Info.plist";
+				PRODUCT_NAME = CheckmailTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B948417C150E4E1D000D3FC4 /* Build configuration list for PBXProject "Checkmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94841B2150E4E1E000D3FC4 /* Debug */,
+				B94841B3150E4E1E000D3FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94841B4150E4E1E000D3FC4 /* Build configuration list for PBXNativeTarget "Checkmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94841B5150E4E1E000D3FC4 /* Debug */,
+				B94841B6150E4E1E000D3FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94841B7150E4E1E000D3FC4 /* Build configuration list for PBXNativeTarget "CheckmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94841B8150E4E1E000D3FC4 /* Debug */,
+				B94841B9150E4E1E000D3FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9484179150E4E1D000D3FC4 /* Project object */;
+}
