@@ -23,8 +23,9 @@
         return savedPassword;
     }
     
-    const char *serverName = "imap.gmail.com";
+    const char *serverName = "accounts.google.com";
     const char *accountName = [login UTF8String];
+    const char *path = "/ServiceLogin";
     savedLogin = login;
     
     // on return
@@ -39,11 +40,11 @@
                                                       NULL,
                                                       (UInt32)strlen(accountName),
                                                       accountName,
-                                                      0,
-                                                      NULL,
+                                                      0,//(UInt32)strlen(path),
+                                                      NULL,//path,
                                                       NULL, 
                                                       kSecProtocolTypeAny, 
-                                                      kSecAuthenticationTypeDefault, 
+                                                      kSecAuthenticationTypeAny, 
                                                       &passwordLength,
                                                       (void**) &passwordData,
                                                       NULL
