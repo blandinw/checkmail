@@ -41,6 +41,8 @@
 -(void)show {
     [NSApp activateIgnoringOtherApps:YES];
     [self showWindow:nil];
-    [textField setStringValue:[Configurator getConfig]];
+    
+    NSString* persistedName = [Configurator getConfig];
+    [textField setStringValue:persistedName ? persistedName : @""];
 }
 @end
