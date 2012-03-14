@@ -42,8 +42,8 @@
 			<object class="NSWindowTemplate" id="1070462495">
 				<int key="NSWindowStyleMask">31</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{120, 662}, {239, 120}}</string>
-				<int key="NSWTFlags">-1539832832</int>
+				<string key="NSWindowRect">{{120, 658}, {239, 120}}</string>
+				<int key="NSWTFlags">-1535638528</int>
 				<string key="NSWindowTitle">Preferences</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
@@ -59,7 +59,6 @@
 							<string key="NSFrame">{{152, 12}, {73, 32}}</string>
 							<reference key="NSSuperview" ref="916791244"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:687</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="1007465853">
